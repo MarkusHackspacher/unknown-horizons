@@ -1,5 +1,5 @@
 # ###################################################
-# Copyright (C) 2008-2017 The Unknown Horizons Team
+# Copyright (C) 2008-2020 The Unknown Horizons Team
 # team@unknown-horizons.org
 # This file is part of Unknown Horizons.
 #
@@ -42,7 +42,7 @@ from horizons.util.python.callback import Callback
 TIMEOUT = 5.0 # we should be done before the user can start a game
 
 
-def is_system_installed(uh_path: Optional[PurePath]=None) -> bool:
+def is_system_installed(uh_path: Optional[PurePath] = None) -> bool:
 	"""
 	Returns whether UH is likely to have been installed with the systems package manager.
 
@@ -77,6 +77,10 @@ def check_for_updates():
 	"""
 	Check if there's a new version, returns the data from the server, otherwise None.
 	"""
+	# do not check on development builds
+	if VERSION.IS_DEV_VERSION:
+		return
+
 	# skip check for platforms that have proper package managements
 	if platform.system() not in ('Windows', 'Darwin') and is_system_installed():
 		return

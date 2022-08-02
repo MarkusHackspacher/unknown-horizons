@@ -1,3 +1,9 @@
+## Unknown-Horizons based on Fifengine is no longer in development. We are porting it to Godot Engine.
+## Please dont report any new bugs.
+## Only bugfixes will get acepted for maybe an last release.
+## New git repo for the Godot port is: https://github.com/unknown-horizons/godot-port
+
+
 [![Unknown-Horizons](/content/gfx/uh.png)](http://unknown-horizons.org/)
 ============================================================
 
@@ -29,7 +35,7 @@ To get the latest version of the game, you have to build it from source:
  * [Instructions for Windows](https://github.com/unknown-horizons/unknown-horizons/wiki/Windows)
  * [Instructions for OS X](https://github.com/unknown-horizons/unknown-horizons/wiki/MacOS)
 
-If you want to start hacking on Unknown Horizons, check out [this guide](https://github.com/unknown-horizons/unknown-horizons/wiki/Getting-started) and contact us to help you get started. We have easy tasks for starters [here](https://github.com/unknown-horizons/unknown-horizons/issues?q=is%3Aopen+is%3Aissue+label%3AD-starter).
+If you want to start hacking on Unknown Horizons, check out [this guide](https://github.com/unknown-horizons/unknown-horizons/wiki/Getting-started) and contact us to help you get started. A [development workflow](development/docker/) with containers is also available. We have easy tasks for starters [here](https://github.com/unknown-horizons/unknown-horizons/issues?q=is%3Aopen+is%3Aissue+label%3AD-starter).
 
 
 ## Dependencies
@@ -48,11 +54,10 @@ Technology     | Component
 
 Type         | Where?
 -------------|-----------------------------------------------------------------------
-Forum        | http://forum.unknown-horizons.org/
+Discord      | https://discord.gg/VX6m2ZX
 Bug Tracker  | https://github.com/unknown-horizons/unknown-horizons/issues
 IRC Channel  | irc://irc.freenode.net/unknown-horizons
 Web IRC Link | https://webchat.freenode.net/?channels=unknown-horizons
-Discord      | https://discord.gg/VX6m2ZX
 
 More support info [here](https://github.com/unknown-horizons/unknown-horizons/wiki/Support-Infos).
 

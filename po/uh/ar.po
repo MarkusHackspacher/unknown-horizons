@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Unknown Horizons 2017.2-731-g533abe7eb\n"
 "Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
 "POT-Creation-Date: 2017-06-09 23:33+0200\n"
-"PO-Revision-Date: 2019-05-13 18:49+0000\n"
-"Last-Translator: Omar Aglan <omar.aglan91@yahoo.com>\n"
+"PO-Revision-Date: 2019-11-20 21:04+0000\n"
+"Last-Translator: abidin toumi <abidin24@disroot.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/uh/uh/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.7-dev\n"
+"X-Generator: Weblate 3.10-dev\n"
 
 #: run_uh.py:132
 msgid "Thank you for using Unknown Horizons!"
@@ -304,7 +304,7 @@ msgstr "(مثل ما في تبويبات التحديد)"
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:25
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:27
 msgid "$res"
-msgstr "$حجم"
+msgstr ""
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:20
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:20
@@ -906,7 +906,7 @@ msgstr "قيمة كل الوحدات المملوكة لللاعب"
 #: content/gui/xml/ingame/widgets/players_overview.xml:18
 msgid ""
 "The total value from all individual entities or in short : Total Player Score"
-msgstr "القيمة الكلية من كل الجهات أو بأختصار : درجة اللاعب الكلية"
+msgstr "القيمة الكلية من كل الجهات أو بأختصار: درجة اللاعب الكلية"
 
 #: content/gui/xml/ingame/widgets/players_overview.xml:18
 #: horizons/gui/widgets/playerssettlements.py:118
@@ -1776,6 +1776,8 @@ msgid ""
 "tents are shown in yellow. It's a good idea to build a new pavilion in their "
 "neighborhood."
 msgstr ""
+"لتحقق ان كان نطاق المعبد يغطي كل الخيم, حدده من قائمة البناء اسقطه فوق المني "
+"مسبقا, الخيم الصفراء هي غير المغطاة.من الجيد بناء معبد جديد قربهم."
 
 #: horizons/gui/modules/loadingscreen.py:82
 msgid ""
@@ -2100,8 +2102,8 @@ msgstr "حُفظت عند {time}"
 #, python-brace-format
 msgid "Saved {amount} time"
 msgid_plural "Saved {amount} times"
-msgstr[0] "حُفظت {amount} من المرات"
-msgstr[1] "حُفظت {amount} من المرات"
+msgstr[0] "لم تحفظ {amount} مرة"
+msgstr[1] "حُفظت {amount} مرة"
 msgstr[2] "حُفظت {amount} مرة"
 msgstr[3] "حفظت {amount} من المرات"
 msgstr[4] "حُفظت {amount} من المرات"
@@ -2230,15 +2232,15 @@ msgstr "حجم الخريطة:"
 
 #: horizons/gui/modules/singleplayermenu.py:231
 msgid "Water:"
-msgstr ""
+msgstr "المياه:"
 
 #: horizons/gui/modules/singleplayermenu.py:232
 msgid "Max island size:"
-msgstr ""
+msgstr "أقصى حجم للجزيرة:"
 
 #: horizons/gui/modules/singleplayermenu.py:233
 msgid "Preferred island size:"
-msgstr ""
+msgstr "حجم الجزيرة المستحسن:"
 
 #: horizons/gui/modules/singleplayermenu.py:234
 msgid "Island size deviation:"
@@ -2246,58 +2248,58 @@ msgstr ""
 
 #: horizons/gui/modules/singleplayermenu.py:353
 msgid "Click to generate a different random map"
-msgstr ""
+msgstr "أنقر لتوليد خريطة عشوائيا"
 
 #: horizons/gui/modules/singleplayermenu.py:503
 msgid "Invalid scenario file"
-msgstr ""
+msgstr "ملف سيناريو غير صالح"
 
 #: horizons/gui/modules/singleplayermenu.py:504
 msgid "The selected file is not a valid scenario file."
-msgstr ""
+msgstr "الملف المحدد ليس ملف سيناريو صالح."
 
 #: horizons/gui/modules/singleplayermenu.py:505
 msgid "Error message:"
-msgstr ""
+msgstr "رسالة خطأ:"
 
 #: horizons/gui/modules/singleplayermenu.py:506
 msgid "Please report this to the author."
-msgstr ""
+msgstr "يرجى إبلاغ المطور."
 
 #: horizons/gui/modules/singleplayermenu.py:590
 #, python-brace-format
 msgid "Difficulty: {difficulty}"
-msgstr ""
+msgstr "الصعوبة: {difficulty}"
 
 #: horizons/gui/modules/singleplayermenu.py:593
 #, python-brace-format
 msgid "Author: {author}"
-msgstr ""
+msgstr "المالك: {author}"
 
 #: horizons/gui/modules/singleplayermenu.py:596
 #, python-brace-format
 msgid "Description: {desc}"
-msgstr ""
+msgstr "الوصف: {desc}"
 
 #. set translated building name in gui
 #: horizons/gui/mousetools/buildingtool.py:237
 #, python-brace-format
 msgid "Build {building}"
-msgstr ""
+msgstr "إبني {building}"
 
 #: horizons/gui/mousetools/navigationtool.py:95
 msgid "Press H to remove this hint"
-msgstr ""
+msgstr "إضغط على H لإزالة هذا التلميح"
 
 #: horizons/gui/mousetools/tearingtool.py:114
 msgid "Destroy all buildings"
-msgstr ""
+msgstr "دمر كل البنايات"
 
 #: horizons/gui/mousetools/tearingtool.py:115
 msgid ""
 "This will destroy all the buildings that fall outside of the settlement "
 "range."
-msgstr ""
+msgstr "سيؤدي هذا إلى تدمير جميع المباني التي تقع خارج نطاق المستعمرة."
 
 #: horizons/gui/mousetools/tearingtool.py:118
 #, python-format
@@ -2308,213 +2310,215 @@ msgstr[1] ""
 
 #: horizons/gui/tabs/barrackstabs.py:38
 msgid "Barracks overview"
-msgstr ""
+msgstr "نظرة عامة عن الثكنات"
 
 #: horizons/gui/tabs/barrackstabs.py:116
 msgid "Swordman"
-msgstr ""
+msgstr "سيّاف"
 
 #: horizons/gui/tabs/barriertab.py:33 horizons/gui/tabs/buildingtabs.py:41
 #: horizons/gui/tabs/overviewtab.py:30
 msgid "Overview"
-msgstr ""
+msgstr "نظرة عامة"
 
 #: horizons/gui/tabs/boatbuildertabs.py:159
 #, python-brace-format
 msgid "{ship} (place in queue: {place})"
-msgstr ""
+msgstr "{ship} (الوجهة القادمة: {place})"
 
 #: horizons/gui/tabs/boatbuildertabs.py:209
 msgid "Boat builder overview"
-msgstr ""
+msgstr "نظرة عامة عن بناء السفن"
 
 #: horizons/gui/tabs/boatbuildertabs.py:288
 msgid "Fisher boats"
-msgstr ""
+msgstr "قوارب الصيد"
 
 #: horizons/gui/tabs/boatbuildertabs.py:300
 msgid "Trade boats"
-msgstr ""
+msgstr "قوارب تجارية"
 
 #: horizons/gui/tabs/boatbuildertabs.py:312
 msgid "War boats"
-msgstr ""
+msgstr "قوارب حربية"
 
 #: horizons/gui/tabs/boatbuildertabs.py:324
 msgid "War ships"
-msgstr ""
+msgstr "سفن حربية"
 
 #: horizons/gui/tabs/buildingtabs.py:33
 msgid "Tower overview"
-msgstr ""
+msgstr "نظرة عامة على البرج"
 
 #: horizons/gui/tabs/buildrelatedtab.py:43
 msgid "Build related buildings"
-msgstr ""
+msgstr "بناء المباني ذات الصلة"
 
 #: horizons/gui/tabs/buyselltab.py:135
 msgid "Click on one of the resource slots to add a trade offer."
-msgstr ""
+msgstr "أنقر على إحدى خانات الموارد لإضافة عرض تجاري."
 
 #. new res
 #: horizons/gui/tabs/buyselltab.py:178
+#, fuzzy
 msgid ""
 "Set to buy or sell by clicking on that label, then adjust the amount via the "
 "slider to the right."
-msgstr ""
+msgstr "اختر إن كنت تريد الشراء او البيع، ثم حدد الكمية عن طريق شريط التمرير."
 
 #: horizons/gui/tabs/buyselltab.py:322
 #, python-brace-format
 msgid ""
 "Will buy {resource_name} for {price} gold/t whenever less than {limit}t are "
 "in stock."
-msgstr ""
+msgstr "سيشتري {resource_name} يـ{price} ذهب اذا قل المخزون عن {limit}."
 
 #: horizons/gui/tabs/buyselltab.py:325
 #, python-brace-format
 msgid ""
 "Will sell {resource_name} for {price} gold/t whenever more than {limit}t are "
 "available."
-msgstr ""
+msgstr "سيبييع {resource_name} بـ {price} ذهب /t اذا زاد المخزون عن {limit}."
 
 #: horizons/gui/tabs/enemybuildingtabs.py:39
+#, fuzzy
 msgid "Warehouse overview"
-msgstr ""
+msgstr "نظرة عامة على مستودع"
 
 #: horizons/gui/tabs/mainsquaretabs.py:69
 msgid "Account"
-msgstr ""
+msgstr "الحساب"
 
 #: horizons/gui/tabs/mainsquaretabs.py:118
 msgid "Main square overview"
-msgstr ""
+msgstr "نظرة عامة على الساحة الرئيسية"
 
 #: horizons/gui/tabs/mainsquaretabs.py:150
 msgid "Upgrade not possible:"
-msgstr ""
+msgstr "الترقية غير ممكنة:"
 
 #: horizons/gui/tabs/mainsquaretabs.py:153
 msgid "This is the highest playable tier for now!"
-msgstr ""
+msgstr "هذا أعلى مستوى للعب حاليا !"
 
 #: horizons/gui/tabs/mainsquaretabs.py:199
 msgid "Don't allow upgrades"
-msgstr ""
+msgstr "لا تسمح بالترقية"
 
 #: horizons/gui/tabs/mainsquaretabs.py:202
 msgid "Allow upgrades"
-msgstr ""
+msgstr "اسمح بالترقية"
 
 #: horizons/gui/tabs/overviewtab.py:100
 msgid "Unit overview"
-msgstr ""
+msgstr "نظرة عامة على العنصر"
 
 #: horizons/gui/tabs/productiontabs.py:46
 #: horizons/gui/tabs/productiontabs.py:321
 msgid "Production overview"
-msgstr ""
+msgstr "نظرة عامة علي الإنتاج"
 
 #: horizons/gui/tabs/productiontabs.py:300
 #, python-brace-format
 msgid "Fill range with {how_many} trees"
-msgstr ""
+msgstr "املأ النطاق بـ {how_many} شجرة"
 
 #: horizons/gui/tabs/selectmultitab.py:47
 msgid "Selected Units"
-msgstr ""
+msgstr "الوحدات المحددة"
 
 #: horizons/gui/tabs/shiptabs.py:40 horizons/gui/tabs/shiptabs.py:178
 #: horizons/gui/tabs/shiptabs.py:205 horizons/gui/tabs/shiptabs.py:210
 msgid "Ship overview"
-msgstr ""
+msgstr "نظرة عامة على السفينة"
 
 #: horizons/gui/tabs/shiptabs.py:56
 msgid "The ship needs to be close to an island to found a settlement."
-msgstr ""
+msgstr "يجب أن تكون السفينة قريبة من جزيرة لتأسيس مستعمرة."
 
 #: horizons/gui/tabs/shiptabs.py:61
 msgid "You already have a settlement on this island."
-msgstr ""
+msgstr "لديك مستعمرة على هذه الجزيرة."
 
 #: horizons/gui/tabs/shiptabs.py:92
 msgid "Load/Unload"
-msgstr ""
+msgstr "تحميل/ إنزال"
 
 #: horizons/gui/tabs/shiptabs.py:94
 msgid "Buy/Sell"
-msgstr ""
+msgstr "بيع/شراء"
 
 #: horizons/gui/tabs/shiptabs.py:103
 msgid "Too far from the nearest tradeable warehouse"
-msgstr ""
+msgstr "بعيد جدًا عن أقرب مستودع قابل للتداول"
 
 #: horizons/gui/tabs/shiptabs.py:109
 msgid "Cannot equip trade ship with weapons"
-msgstr ""
+msgstr "لا يمكن تزويد السفينة التجارية بالأسلحة"
 
 #: horizons/gui/tabs/shiptabs.py:110
 msgid "It is not possible to equip a trade ship with weapons."
-msgstr ""
+msgstr "لا يمكن تجهيز سفينة تجارية بالأسلحة."
 
 #: horizons/gui/tabs/shiptabs.py:149
 msgid "Equip weapon"
-msgstr ""
+msgstr "تزويد بالاسلحة"
 
 #: horizons/gui/tabs/shiptabs.py:153
 msgid "Unequip weapon"
-msgstr ""
+msgstr "إلغاء التزود بالاسلحة"
 
 #: horizons/gui/widgets/imagefillstatusbutton.py:74
 #, python-brace-format
 msgid "{resource_name}: {price} gold"
-msgstr ""
+msgstr "{resource_name}:{price} ذهب"
 
 #: horizons/gui/widgets/imagefillstatusbutton.py:79
 #, python-brace-format
 msgid "buy for {buyprice} gold"
-msgstr ""
+msgstr "اشتري بـ {buyprice} ذهب"
 
 #: horizons/gui/widgets/imagefillstatusbutton.py:81
 #, python-brace-format
 msgid "sell for {sellprice} gold"
-msgstr ""
+msgstr "بِع بـ {sellprice} ذهب"
 
 #: horizons/gui/widgets/inventory.py:174
 #, python-brace-format
 msgid "{stored}/{limit}"
-msgstr ""
+msgstr "{stored}\\{limit}"
 
 #: horizons/gui/widgets/inventory.py:176
 #, python-brace-format
 msgid "Limit: {amount}t per slot"
-msgstr ""
+msgstr "الحد: {amount} للخانة"
 
 #: horizons/gui/widgets/logbook.py:52
 msgid "Logbook"
-msgstr ""
+msgstr "السجل"
 
 #: horizons/gui/widgets/logbook.py:190
 msgid "Emptiness"
-msgstr ""
+msgstr "فراغ"
 
 #: horizons/gui/widgets/logbook.py:193
 msgid "There is nothing written in your logbook yet!"
-msgstr ""
+msgstr "لا يوجد شيء مكتوب في سجلك حتى الآن!"
 
 #: horizons/gui/widgets/playerssettlements.py:40
 #, python-brace-format
 msgid "Settlements of {player}"
-msgstr ""
+msgstr "مستعمرة {player}"
 
 #: horizons/gui/widgets/playersships.py:45
 #, python-brace-format
 msgid "Ships of {player}"
-msgstr ""
+msgstr "سفن {player}"
 
 #. i18n There are no weapons equipped at the moment.
 #: horizons/gui/widgets/playersships.py:95
 msgid "None"
-msgstr ""
+msgstr "لا شيء"
 
 #: horizons/gui/widgets/playersships.py:97
 msgid "N/A"
@@ -2523,122 +2527,126 @@ msgstr ""
 #: horizons/gui/widgets/productionoverview.py:121
 #, python-brace-format
 msgid "Production overview of {settlement}"
-msgstr ""
+msgstr "نظره عامة علي إنتاج {settlement}"
 
 #: horizons/gui/widgets/resourceoverviewbar.py:113
 msgid "Click to show statistics"
-msgstr ""
+msgstr "انقر لعرض الاحصائيات"
 
 #: horizons/gui/widgets/resourceoverviewbar.py:245
 msgid "Click to add a new slot"
-msgstr ""
+msgstr "أنقر لإضافة خانة جديدة"
 
 #: horizons/gui/widgets/resourceoverviewbar.py:467
 msgid "Reset this configuration to the factory default."
-msgstr ""
+msgstr "إعادة الاعدادات الى الاعدادت الافتراضية."
 
 #: horizons/gui/widgets/resourceoverviewbar.py:471
 msgid ""
 "Reset this settlement's displayed resources to the default configuration you "
 "have saved."
 msgstr ""
+"أعِد تعيين الموارد المعروضة في هذه المستعمرة إلى الإعدادت الافتراضية الذي "
+"قمت بحفظها."
 
 #: horizons/gui/widgets/resourceoverviewbar.py:475
 msgid ""
 "Reset the default configuration (which you see here) to the factory default "
 "for all settlements."
 msgstr ""
+"إعادة تعيين التكوين الافتراضي لجميع المستعمرات (كما هو مبين هنا) إلى "
+"الإعدادات الافتراضية."
 
 #: horizons/gui/widgets/resourceoverviewbar.py:616
 msgid "Buy expenses"
-msgstr ""
+msgstr "تكلفة الشراء"
 
 #: horizons/gui/widgets/resourceoverviewbar.py:617
 msgid "Sell income"
-msgstr ""
+msgstr "إيرادات المبيعات"
 
 #: horizons/gui/widgets/routeconfig.py:122
 msgid "Stop route"
-msgstr ""
+msgstr "أوقف الطريق"
 
 #: horizons/gui/widgets/routeconfig.py:129
 msgid "Need at least two settlements"
-msgstr ""
+msgstr "تحتاج على الأقل الى مستعمرتين"
 
 #: horizons/gui/widgets/routeconfig.py:130
 msgid "You need at least two different settlements in your route."
-msgstr ""
+msgstr "تحتاج إلى مستوطنتين مختلفتين على الأقل في مسارك."
 
 #: horizons/gui/widgets/routeconfig.py:159
 msgid "Click on a settlement to add a waypoint!"
-msgstr ""
+msgstr "انقر على مستعمرة لإضافة نقطة مسار!"
 
 #: horizons/gui/widgets/routeconfig.py:196
 msgid "Loading into ship"
-msgstr ""
+msgstr "تحميل السفينة"
 
 #: horizons/gui/widgets/routeconfig.py:202
 msgid "Unloading from ship"
-msgstr ""
+msgstr "تفريغ السفينة"
 
 #: horizons/gui/widgets/routeconfig.py:399
 msgid "You are not allowed to trade with this player"
-msgstr ""
+msgstr "لا يسمح لك بالتداول مع هذا اللاعب"
 
 #. You usually do not need to change anything here when translating
 #: horizons/gui/widgets/unitoverview.py:120
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "{weapon}: {amount}"
-msgstr ""
+msgstr "{weapon}: {amount}"
 
 #: horizons/gui/widgets/unitoverview.py:125
 msgid "none"
-msgstr ""
+msgstr "لا شيء"
 
 #: horizons/gui/windows.py:413
 #, python-brace-format
 msgid "Details: {error_details}"
-msgstr ""
+msgstr "التفاصيل: {error_details}"
 
 #: horizons/gui/windows.py:415
 #, python-brace-format
 msgid "Error: {error_message}"
-msgstr ""
+msgstr "خطأ: {error_message}"
 
 #. name of buildings:bakery
 #: horizons/i18n/objecttranslations.py:47
 msgid "Bakery"
-msgstr ""
+msgstr "مخبزة"
 
 #. tooltip_text of buildings:bakery
 #: horizons/i18n/objecttranslations.py:49
 msgid "Consumes flour. Produces food."
-msgstr ""
+msgstr "تستهلك الطحين. تنتج الغذاء."
 
 #. name of buildings:barracks
 #: horizons/i18n/objecttranslations.py:53
 msgid "Barracks"
-msgstr ""
+msgstr "ثكنة عسكرية"
 
 #. tooltip_text of buildings:barracks
 #: horizons/i18n/objecttranslations.py:55
 msgid "Recruits units suitable for ground combat."
-msgstr ""
+msgstr "تجنيد القوات المناسبة للعمليات البرية."
 
 #. name_0 of buildings:barrier
 #: horizons/i18n/objecttranslations.py:59
 msgid "Wooden barrier"
-msgstr ""
+msgstr "سياج خشبي"
 
 #. name_1 of buildings:barrier
 #: horizons/i18n/objecttranslations.py:61
 msgid "Clay wall"
-msgstr ""
+msgstr "جدار الطين"
 
 #. tooltip_text of buildings:barrier
 #: horizons/i18n/objecttranslations.py:63
 msgid "Provides security."
-msgstr ""
+msgstr "توفير الأمن."
 
 #. name of buildings:blender
 #: horizons/i18n/objecttranslations.py:67
@@ -2653,272 +2661,274 @@ msgstr ""
 #. name of buildings:boatbuilder
 #: horizons/i18n/objecttranslations.py:73
 msgid "Boat Builder"
-msgstr ""
+msgstr "بنّاء القوارب"
 
 #. tooltip_text of buildings:boatbuilder
 #: horizons/i18n/objecttranslations.py:75
 msgid "Builds boats and small ships. Built on coast."
-msgstr ""
+msgstr "يبني القوارب والسفن الصغيرة. يبنى على الساحل."
 
 #. name of buildings:brewery
 #: horizons/i18n/objecttranslations.py:79
 msgid "Brewery"
-msgstr ""
+msgstr "مصنع الجعة"
 
 #. tooltip_text of buildings:brewery
 #: horizons/i18n/objecttranslations.py:81
 msgid "Consumes hops. Produces Beer."
-msgstr ""
+msgstr "يستهلك الجنجل. ينتج الجعة."
 
 #. name of buildings:brickyard
 #: horizons/i18n/objecttranslations.py:85
 msgid "Brickyard"
-msgstr ""
+msgstr "مصنع الطوب"
 
 #. tooltip_text of buildings:brickyard
 #: horizons/i18n/objecttranslations.py:87
 msgid "Turns clay into bricks."
-msgstr ""
+msgstr "يحول الطين الى طوب."
 
 #. name of buildings:butchery
 #: horizons/i18n/objecttranslations.py:91
 msgid "Butchery"
-msgstr ""
+msgstr "مجزرة اللحوم"
 
 #. tooltip_text of buildings:butchery
 #: horizons/i18n/objecttranslations.py:93
 msgid "Needs pigs or cattle. Produces food."
-msgstr ""
+msgstr "يحتاج الى الماشية. ينتج الغذاء."
 
 #. name of buildings:cannonfoundry
 #: horizons/i18n/objecttranslations.py:97
 msgid "Cannon Foundry"
-msgstr ""
+msgstr "مصنع سباكة المدافع"
 
 #. tooltip_text of buildings:cannonfoundry
 #: horizons/i18n/objecttranslations.py:99
 msgid "Produces Cannons."
-msgstr ""
+msgstr "ينتج مدافع."
 
 #. name of buildings:charcoalburning
 #: horizons/i18n/objecttranslations.py:103
 msgid "Charcoal Burning"
-msgstr ""
+msgstr "فرن فحم"
 
 #. tooltip_text of buildings:charcoalburning
 #: horizons/i18n/objecttranslations.py:105
 msgid "Burns a lot of boards."
-msgstr ""
+msgstr "يحرق الكثير من الالواح."
 
 #. name of buildings:claydeposit
 #: horizons/i18n/objecttranslations.py:109
 msgid "Clay Deposit"
-msgstr ""
+msgstr "رواسب الطين"
 
 #. name of buildings:claypit
 #: horizons/i18n/objecttranslations.py:113
 msgid "Clay Pit"
-msgstr ""
+msgstr "حفرة الطين"
 
 #. tooltip_text of buildings:claypit
 #: horizons/i18n/objecttranslations.py:115
 msgid "Gets clay from deposit."
-msgstr ""
+msgstr "استخراج الطين من الرواسب ."
 
 #. name of buildings:distillery
 #: horizons/i18n/objecttranslations.py:119
 msgid "Distillery"
-msgstr ""
+msgstr "مصنع الجعة"
 
 #. tooltip_text of buildings:distillery
 #: horizons/i18n/objecttranslations.py:121
 msgid "Turns sugar into liquor."
-msgstr ""
+msgstr "يحول السكر الى شراب."
 
 #. name of buildings:doctor
 #: horizons/i18n/objecttranslations.py:125
 msgid "Doctor"
-msgstr ""
+msgstr "طبيب"
 
 #. tooltip_text of buildings:doctor
 #: horizons/i18n/objecttranslations.py:127
 msgid "Treats diseases. Consumes herbs."
-msgstr ""
+msgstr "يعالج الامراض. يستهلك الأعشاب."
 
 #. name of buildings:farm
 #: horizons/i18n/objecttranslations.py:131
 msgid "Farm"
-msgstr ""
+msgstr "مزرعة"
 
 #. tooltip_text of buildings:farm
 #: horizons/i18n/objecttranslations.py:133
 msgid "Grows field crops and raises livestock."
-msgstr ""
+msgstr "يزرع المحاصيل ويربي الماشية."
 
 #. name of buildings:fields:alvearies
 #: horizons/i18n/objecttranslations.py:137
 msgid "Alvearies"
-msgstr ""
+msgstr "خلايا نحل"
 
 #. tooltip_text of buildings:fields:alvearies
 #: horizons/i18n/objecttranslations.py:139
 msgid "Keeps bees. Produces honeycombs used for confectionery. Needs a farm."
-msgstr ""
+msgstr "تربية النحل. تنتج العسل المستخدم في صناعة الحلويات. يحتاج إلى مزرعة."
 
 #. name of buildings:fields:cattlerun
 #: horizons/i18n/objecttranslations.py:143
+#, fuzzy
 msgid "Cattle Run"
-msgstr ""
+msgstr "زريبة ماشية"
 
 #. tooltip_text of buildings:fields:cattlerun
 #: horizons/i18n/objecttranslations.py:145
 msgid "Raises cattle. Needs a farm."
-msgstr ""
+msgstr "تربية الماشية. تحتاح الى مزرعة."
 
 #. name of buildings:fields:cocoafield
 #: horizons/i18n/objecttranslations.py:149
 msgid "Cocoa Field"
-msgstr ""
+msgstr "حقل كاكاو"
 
 #. tooltip_text of buildings:fields:cocoafield
 #: horizons/i18n/objecttranslations.py:151
 msgid "Produces cocoa beans used for confectionery. Needs a farm."
-msgstr ""
+msgstr "ينتج حبوب الكاكاو المستخدمة في صناعة الحلويات. يحتاج إلى مزرعة."
 
 #. name of buildings:fields:cornfield
 #: horizons/i18n/objecttranslations.py:155
 msgid "Corn Field"
-msgstr ""
+msgstr "حقل ذرة"
 
 #. tooltip_text of buildings:fields:cornfield
 #: horizons/i18n/objecttranslations.py:157
 msgid "Yields corn. Needs a farm."
-msgstr ""
+msgstr "محاصيل الذرة.تحتاج الى مزرعة."
 
 #. name of buildings:fields:herbary
 #: horizons/i18n/objecttranslations.py:161
+#, fuzzy
 msgid "Herbary"
-msgstr ""
+msgstr "حقل أعشاب"
 
 #. tooltip_text of buildings:fields:herbary
 #: horizons/i18n/objecttranslations.py:163
 msgid "Produces herbs. Needs a farm."
-msgstr ""
+msgstr "ينتج الأعشاب. يحتاج إلى مزرعة."
 
 #. name of buildings:fields:hopfield
 #: horizons/i18n/objecttranslations.py:167
 msgid "Hop Field"
-msgstr ""
+msgstr "حقل جلجل"
 
 #. tooltip_text of buildings:fields:hopfield
 #: horizons/i18n/objecttranslations.py:169
 msgid "Yields hop. Needs a farm."
-msgstr ""
+msgstr "محاصيل جلجل.يحتاج الى مزرعة."
 
 #. name of buildings:fields:pasture
 #: horizons/i18n/objecttranslations.py:173
 msgid "Pasture"
-msgstr ""
+msgstr "مرعى"
 
 #. tooltip_text of buildings:fields:pasture
 #: horizons/i18n/objecttranslations.py:175
 msgid "Raises sheep. Produces wool. Needs a farm."
-msgstr ""
+msgstr "تربية الأغنام. تنتج الصوف. تحتاح الى مزرعة."
 
 #. name of buildings:fields:pigsty
 #: horizons/i18n/objecttranslations.py:179
 msgid "Pigsty"
-msgstr ""
+msgstr "زريبة"
 
 #. tooltip_text of buildings:fields:pigsty
 #: horizons/i18n/objecttranslations.py:181
 msgid "Raises pigs. Needs a farm."
-msgstr ""
+msgstr "تربية الحيوانات. تحتاج الى مزرعة."
 
 #. name of buildings:fields:potatofield
 #: horizons/i18n/objecttranslations.py:185
 msgid "Potato Field"
-msgstr ""
+msgstr "حقل بطاطا"
 
 #. tooltip_text of buildings:fields:potatofield
 #: horizons/i18n/objecttranslations.py:187
 msgid "Yields food. Needs a farm."
-msgstr ""
+msgstr "محاصيل طعام. تحتاج الى مزرععة."
 
 #. name of buildings:fields:spicefield
 #: horizons/i18n/objecttranslations.py:191
 msgid "Spice Field"
-msgstr ""
+msgstr "حقل توابل"
 
 #. tooltip_text of buildings:fields:spicefield
 #: horizons/i18n/objecttranslations.py:193
 msgid "Grows spices. Needs a farm."
-msgstr ""
+msgstr "زراعة التوابل.يحتاج الى مزرعة."
 
 #. name of buildings:fields:sugarfield
 #: horizons/i18n/objecttranslations.py:197
 msgid "Sugar Field"
-msgstr ""
+msgstr "حقل سكر"
 
 #. tooltip_text of buildings:fields:sugarfield
 #: horizons/i18n/objecttranslations.py:199
 msgid "Used in liquor production. Needs a farm."
-msgstr ""
+msgstr "يستخدم في إنتاج الشراب. يحتاج إلى مزرعة."
 
 #. name of buildings:fields:tobaccofield
 #: horizons/i18n/objecttranslations.py:203
 msgid "Tobacco Field"
-msgstr ""
+msgstr "حقل تبغ"
 
 #. tooltip_text of buildings:fields:tobaccofield
 #: horizons/i18n/objecttranslations.py:205
 msgid "Produces tobacco. Needs a farm."
-msgstr ""
+msgstr "ينتج التبغ. يحتاج إلى مزرعة."
 
 #. name of buildings:fields:vineyard
 #: horizons/i18n/objecttranslations.py:209
 msgid "Vineyard"
-msgstr ""
+msgstr "حقل كروم"
 
 #. tooltip_text of buildings:fields:vineyard
 #: horizons/i18n/objecttranslations.py:211
 msgid "Produces grapes for use in wine and confectionery. Needs a farm."
-msgstr ""
+msgstr "ينتج العنب للاستخدام في الحلويات. يحتاج إلى مزرعة."
 
 #. name of buildings:fireservice
 #: horizons/i18n/objecttranslations.py:215
 msgid "Fire Station"
-msgstr ""
+msgstr "محطة إطفاء"
 
 #. tooltip_text of buildings:fireservice
 #: horizons/i18n/objecttranslations.py:217
 msgid "Extinguishes fires."
-msgstr ""
+msgstr "إخماد الحريق."
 
 #. name of buildings:fishdeposit
 #: horizons/i18n/objecttranslations.py:221
 msgid "Fish Deposit"
-msgstr ""
+msgstr "أسماك"
 
 #. name of buildings:fishermanstent
 #: horizons/i18n/objecttranslations.py:225
 msgid "Fisherman's Tent"
-msgstr ""
+msgstr "خيمة صياد السمك"
 
 #. tooltip_text of buildings:fishermanstent
 #: horizons/i18n/objecttranslations.py:227
 msgid "Fishes the sea, produces food."
-msgstr ""
+msgstr "يصطاد السمك.ينتج الغذاء."
 
 #. name of buildings:hunterstent
 #: horizons/i18n/objecttranslations.py:231
 msgid "Hunter's Tent"
-msgstr ""
+msgstr "خيمة صياد"
 
 #. tooltip_text of buildings:hunterstent
 #: horizons/i18n/objecttranslations.py:233
 msgid "Hunts wild forest animals, produces food."
-msgstr ""
+msgstr "يصطاد الحيوانات البرية.ينتج الغذاء."
 
 #. name of buildings:lookout
 #: horizons/i18n/objecttranslations.py:237
@@ -2928,107 +2938,108 @@ msgstr ""
 #. tooltip_text of buildings:lookout
 #: horizons/i18n/objecttranslations.py:239
 msgid "Expands settlement range."
-msgstr ""
+msgstr "يوسع نطاق المستعمرة."
 
 #. name_0 of buildings:lumberjackcamp
 #: horizons/i18n/objecttranslations.py:243
 msgid "Lumberjack Tent"
-msgstr ""
+msgstr "خيمة حطاب"
 
 #. name_1 of buildings:lumberjackcamp
 #: horizons/i18n/objecttranslations.py:245
 msgid "Lumberjack Hut"
-msgstr ""
+msgstr "كوخ حطاب"
 
 #. tooltip_text of buildings:lumberjackcamp
 #: horizons/i18n/objecttranslations.py:247
 msgid "Chops down trees and turns them into boards."
-msgstr ""
+msgstr "يقطع الأشجار ويحولها إلى ألواح."
 
 #. name of buildings:mainsquare
 #: horizons/i18n/objecttranslations.py:251
 msgid "Main Square"
-msgstr ""
+msgstr "الساحة الرئيسية"
 
 #. tooltip_text of buildings:mainsquare
 #: horizons/i18n/objecttranslations.py:253
 msgid "Supplies citizens with goods. Provides community."
-msgstr ""
+msgstr "يزود المواطنين بالبضاعة. يوفر مجتمع."
 
 #. name of buildings:mine
 #: horizons/i18n/objecttranslations.py:257
 msgid "Mine"
-msgstr ""
+msgstr "منجم"
 
 #. tooltip_text of buildings:mine
 #: horizons/i18n/objecttranslations.py:259
 msgid "Gets iron ore from deposit."
-msgstr ""
+msgstr "يستخرج خام الحديد من الرواسب."
 
 #. name of buildings:mountain
 #: horizons/i18n/objecttranslations.py:263
 msgid "Mountain"
-msgstr ""
+msgstr "جبل"
 
 #. name of buildings:pastryshop
 #: horizons/i18n/objecttranslations.py:267
 msgid "Pastry Shop"
-msgstr ""
+msgstr "متجر الحلويات"
 
 #. tooltip_text of buildings:pastryshop
 #: horizons/i18n/objecttranslations.py:269
 msgid "Produces all kinds of confectionery."
-msgstr ""
+msgstr "ينتج جميع أنواع الحلويات."
 
 #. name of buildings:pavilion
 #: horizons/i18n/objecttranslations.py:273
 msgid "Pavilion"
-msgstr ""
+msgstr "معبد"
 
 #. tooltip_text of buildings:pavilion
 #: horizons/i18n/objecttranslations.py:275
 msgid "Fulfills religious needs of sailors."
-msgstr ""
+msgstr "يلبي الاحتياجات الدينية للبحارة."
 
 #. name of buildings:ruinedtent
 #: horizons/i18n/objecttranslations.py:279
 msgid "Ruined Tent"
-msgstr ""
+msgstr "خيمة مخربة"
 
 #. name of buildings:saltponds
 #: horizons/i18n/objecttranslations.py:283
 msgid "Salt Ponds"
-msgstr ""
+msgstr "أحواض الملح"
 
 #. tooltip_text of buildings:saltponds
 #: horizons/i18n/objecttranslations.py:285
 msgid "Evaporates salt. Built on sea coast."
-msgstr ""
+msgstr "يبخر الماء لاستخراج الملح.يبنى على ساحل البحر."
 
 #. name of buildings:signalfire
 #: horizons/i18n/objecttranslations.py:289
 msgid "Signal Fire"
-msgstr ""
+msgstr "إشارة النار"
 
 #. tooltip_text of buildings:signalfire
 #: horizons/i18n/objecttranslations.py:291
 msgid "Allows the player to trade with the free trader."
-msgstr ""
+msgstr "يسمح للاعب بالتداول مع التاجر الحر."
 
 #. name of buildings:smeltery
 #: horizons/i18n/objecttranslations.py:295
+#, fuzzy
 msgid "Smeltery"
-msgstr ""
+msgstr "دار سباكة"
 
 #. tooltip_text of buildings:smeltery
 #: horizons/i18n/objecttranslations.py:297
 msgid "Refines all kind of ores."
-msgstr ""
+msgstr "تكرير كل أنواع الخامات."
 
 #. name of buildings:stonedeposit
 #: horizons/i18n/objecttranslations.py:301
 msgid "Stone Deposit"
-msgstr ""
+msgstr "خام الحجارة"
 
 #. name_3 of buildings:stonemason
 #: horizons/i18n/objecttranslations.py:305
@@ -3038,197 +3049,197 @@ msgstr ""
 #. name_4 of buildings:stonemason
 #: horizons/i18n/objecttranslations.py:307
 msgid "Carver"
-msgstr ""
+msgstr "دار نحت"
 
 #. tooltip_text of buildings:stonemason
 #: horizons/i18n/objecttranslations.py:309
 msgid "Carves stone tops into bricks."
-msgstr ""
+msgstr "تحويل الحجارة الى طوب."
 
 #. name of buildings:stonepit
 #: horizons/i18n/objecttranslations.py:313
 msgid "Stone Pit"
-msgstr ""
+msgstr "مقلع حجارة"
 
 #. tooltip_text of buildings:stonepit
 #: horizons/i18n/objecttranslations.py:315
 msgid "Gets stone from a mountain."
-msgstr ""
+msgstr "يحصل على الحجارة من الجبل."
 
 #. name_0 of buildings:storagetent
 #: horizons/i18n/objecttranslations.py:319
 msgid "Storage Tent"
-msgstr ""
+msgstr "خيمة تخزين"
 
 #. name_1 of buildings:storagetent
 #: horizons/i18n/objecttranslations.py:321
 msgid "Storage Hut"
-msgstr ""
+msgstr "كوخ تخزين"
 
 #. tooltip_text of buildings:storagetent
 #: horizons/i18n/objecttranslations.py:323
 msgid "Extends stock, expands settlement range and provides collectors."
-msgstr ""
+msgstr "يزيد سعة التخزين، يوسع المستعمرة ويوفر الجامعين."
 
 #. name of buildings:tavern
 #: horizons/i18n/objecttranslations.py:327
 msgid "Tavern"
-msgstr ""
+msgstr "حانة"
 
 #. tooltip_text of buildings:tavern
 #: horizons/i18n/objecttranslations.py:329
 msgid "Provides get-together."
-msgstr ""
+msgstr "يوفر مجالس."
 
 #. name_0 of buildings:tent
 #: horizons/i18n/objecttranslations.py:333
 msgid "Tent"
-msgstr ""
+msgstr "خيمة"
 
 #. name_1 of buildings:tent
 #: horizons/i18n/objecttranslations.py:335
 msgid "Hut"
-msgstr ""
+msgstr "كوخ"
 
 #. name_2 of buildings:tent
 #: horizons/i18n/objecttranslations.py:337
 msgid "House"
-msgstr ""
+msgstr "منزل"
 
 #. name_3 of buildings:tent
 #: horizons/i18n/objecttranslations.py:339
 msgid "Stone house"
-msgstr ""
+msgstr "منزل حجري"
 
 #. name_4 of buildings:tent
 #: horizons/i18n/objecttranslations.py:341
 msgid "Estate"
-msgstr ""
+msgstr "عقار"
 
 #. name_5 of buildings:tent
 #: horizons/i18n/objecttranslations.py:343
 msgid "Manor"
-msgstr ""
+msgstr "قصر عزبة"
 
 #. tooltip_text of buildings:tent
 #: horizons/i18n/objecttranslations.py:345
 msgid "Houses your inhabitants."
-msgstr ""
+msgstr "يوفر سكن للمواطنيك."
 
 #. name of buildings:tobacconist
 #: horizons/i18n/objecttranslations.py:349
 msgid "Tobacconist"
-msgstr ""
+msgstr "بائع التبغ"
 
 #. tooltip_text of buildings:tobacconist
 #: horizons/i18n/objecttranslations.py:351
 msgid "Produces tobaccos out of tobacco."
-msgstr ""
+msgstr "ينتج السجائر من التبغ."
 
 #. name of buildings:toolmaker
 #: horizons/i18n/objecttranslations.py:355
 msgid "Toolmaker"
-msgstr ""
+msgstr "مصنِّع الأدوات"
 
 #. tooltip_text of buildings:toolmaker
 #: horizons/i18n/objecttranslations.py:357
 msgid "Produces tools out of iron."
-msgstr ""
+msgstr "ينتج الادوات من الحديد."
 
 #. name_0 of buildings:trail
 #: horizons/i18n/objecttranslations.py:361
 msgid "Trail"
-msgstr ""
+msgstr "ممر المشاة"
 
 #. name_1 of buildings:trail
 #: horizons/i18n/objecttranslations.py:363
 msgid "Gravel Path"
-msgstr ""
+msgstr "مسار الحصى"
 
 #. name_3 of buildings:trail
 #: horizons/i18n/objecttranslations.py:365
 msgid "Cobblestone Street"
-msgstr ""
+msgstr "شارع مرصوف"
 
 #. tooltip_text of buildings:trail
 #: horizons/i18n/objecttranslations.py:367
 msgid "Needed for collecting goods."
-msgstr ""
+msgstr "يلزم لجمع البضائع."
 
 #. name of buildings:tree
 #: horizons/i18n/objecttranslations.py:371
 msgid "Tree"
-msgstr ""
+msgstr "شجرة"
 
 #. tooltip_text of buildings:tree
 #: horizons/i18n/objecttranslations.py:373
 msgid "Provides lumber. Chopped down by lumberjacks."
-msgstr ""
+msgstr "يوفر الخشب.يقطع بواسطة حطاب."
 
 #. name of buildings:villageschool
 #: horizons/i18n/objecttranslations.py:377
 msgid "Village School"
-msgstr ""
+msgstr "مدرسة قرية"
 
 #. tooltip_text of buildings:villageschool
 #: horizons/i18n/objecttranslations.py:379
 msgid "Provides education."
-msgstr ""
+msgstr "توفر التعليم."
 
 #. name of buildings:warehouse
 #: horizons/i18n/objecttranslations.py:383
 msgid "Warehouse"
-msgstr ""
+msgstr "مستودع"
 
 #. name of buildings:weaponsmith
 #: horizons/i18n/objecttranslations.py:387
 msgid "Weaponsmith"
-msgstr ""
+msgstr "حداد الاسلحة"
 
 #. tooltip_text of buildings:weaponsmith
 #: horizons/i18n/objecttranslations.py:389
 msgid "Produces weapons out of iron."
-msgstr ""
+msgstr "يحول الحديد الى أسلحة."
 
 #. name of buildings:weaverstent
 #: horizons/i18n/objecttranslations.py:393
 msgid "Weaver's Hut"
-msgstr ""
+msgstr "كوخ حائِك"
 
 #. tooltip_text of buildings:weaverstent
 #: horizons/i18n/objecttranslations.py:395
 msgid "Turns lamb wool into cloth."
-msgstr ""
+msgstr "يحول الصوف الى ملابس."
 
 #. name of buildings:windmill
 #: horizons/i18n/objecttranslations.py:399
 msgid "Windmill"
-msgstr ""
+msgstr "طاحونة"
 
 #. tooltip_text of buildings:windmill
 #: horizons/i18n/objecttranslations.py:401
 msgid "Grinds corn into flour."
-msgstr ""
+msgstr "تطحن الذرة."
 
 #. name of buildings:winery
 #: horizons/i18n/objecttranslations.py:405
 msgid "Winery"
-msgstr ""
+msgstr "مصنع شراب"
 
 #. tooltip_text of buildings:winery
 #: horizons/i18n/objecttranslations.py:407
 msgid "Produces wine out of grapes."
-msgstr ""
+msgstr "ينتج الشراب من العنب."
 
 #. name of buildings:woodentower
 #: horizons/i18n/objecttranslations.py:411
 msgid "Wooden Tower"
-msgstr ""
+msgstr "برج خشبي"
 
 #. tooltip_text of buildings:woodentower
 #: horizons/i18n/objecttranslations.py:413
 msgid "Defends your settlement."
-msgstr ""
+msgstr "يدافع عن المستعمرة."
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. tab4_headline of gui_buildmenu:build_menu_per_type
@@ -3238,7 +3249,7 @@ msgstr ""
 #: horizons/i18n/objecttranslations.py:423
 #: horizons/i18n/objecttranslations.py:495
 msgid "Companies"
-msgstr ""
+msgstr "شركات"
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. tab2_headline of gui_buildmenu:build_menu_per_type
@@ -3248,7 +3259,7 @@ msgstr ""
 #: horizons/i18n/objecttranslations.py:431
 #: horizons/i18n/objecttranslations.py:491
 msgid "Fields"
-msgstr ""
+msgstr "حقول"
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. tab5_headline of gui_buildmenu:build_menu_per_type
@@ -3256,21 +3267,21 @@ msgstr ""
 #: horizons/i18n/objecttranslations.py:435
 #: horizons/i18n/objecttranslations.py:497
 msgid "Military"
-msgstr ""
+msgstr "جيش"
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:437
 #: horizons/i18n/objecttranslations.py:463
 msgid "Mining"
-msgstr ""
+msgstr "تنقيب"
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. tab1_helptext of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:439
 #: horizons/i18n/objecttranslations.py:489
 msgid "Residents and infrastructure"
-msgstr ""
+msgstr "السكان والبنية التحتية"
 
 #. headline of gui_buildmenu:build_menu_per_tier
 #. headline of gui_buildmenu:build_menu_per_type
@@ -3279,35 +3290,35 @@ msgstr ""
 #: horizons/i18n/objecttranslations.py:445
 #: horizons/i18n/objecttranslations.py:473
 msgid "Services"
-msgstr ""
+msgstr "خدمات"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #. This is a database entry: the name of an inhabitant tier (level)
 #: horizons/i18n/objecttranslations.py:449
 #: horizons/i18n/objecttranslations.py:451
 msgid "Citizens"
-msgstr ""
+msgstr "مواطنون"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:453
 msgid "Food"
-msgstr ""
+msgstr "غذاء"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:455
 msgid "Fortifications"
-msgstr ""
+msgstr "تحصينات"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:457
 #: horizons/i18n/objecttranslations.py:459
 msgid "Infrastructure"
-msgstr ""
+msgstr "بنية تحتية"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:461
 msgid "Military Service"
-msgstr ""
+msgstr "الخدمة العسكرية"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #. This is a database entry: the name of an inhabitant tier (level)
@@ -3318,22 +3329,22 @@ msgstr ""
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:467
 msgid "Precaution"
-msgstr ""
+msgstr "احتياط"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:469
 msgid "Residential"
-msgstr ""
+msgstr "سكني"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:471
 msgid "Sea"
-msgstr ""
+msgstr "بحر"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:477
 msgid "Wood"
-msgstr ""
+msgstr "خشب"
 
 #. headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:479
@@ -3341,46 +3352,46 @@ msgstr ""
 #: horizons/i18n/objecttranslations.py:483
 #: horizons/i18n/objecttranslations.py:485
 msgid "Workshops"
-msgstr ""
+msgstr "ورش عمل"
 
 #. tab1_headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:487
 msgid "Settlement"
-msgstr ""
+msgstr "مستعمرة"
 
 #. tab3_headline of gui_buildmenu:build_menu_per_type
 #: horizons/i18n/objecttranslations.py:493
 msgid "Agriculture"
-msgstr ""
+msgstr "زراعة"
 
 #: horizons/main.py:366
 msgid "Failed to start/load the game"
-msgstr ""
+msgstr "تحميل\\بدأ اللعبة فشل"
 
 #: horizons/main.py:367
 msgid "The game you selected could not be started."
-msgstr ""
+msgstr "لا يمكن بدأ اللعبة المحددة."
 
 #: horizons/main.py:368
 msgid "The savegame might be broken or has been saved with an earlier version."
-msgstr ""
+msgstr "اللعبة المحفوظة قد تكون معطوبة أو تم حفظها باستخدام إصدار قديم."
 
 #: horizons/main.py:516
 msgid "No quicksaves found"
-msgstr ""
+msgstr "لم يُعثر على حفظ سريع"
 
 #: horizons/main.py:517
 msgid "You need to quicksave before you can quickload."
-msgstr ""
+msgstr "تحتاج إلى حفظ سريع قبل أن تتمكن من استخدام التحميل السريع."
 
 #: horizons/main.py:605
 msgid "Logging enabled"
-msgstr ""
+msgstr "تسجيل الدخول ممَكن"
 
 #: horizons/main.py:606
 #, python-brace-format
 msgid "Logs are written to {directory}."
-msgstr ""
+msgstr "تكتب السجلات في {directory}."
 
 #. if this is reached, we are screwed. Something went wrong in the simulation,
 #. but we don't know what. Stop the game.
@@ -3389,30 +3400,32 @@ msgid ""
 "The games have run out of sync. This indicates an unknown internal error, "
 "the game cannot continue."
 msgstr ""
+"لم تعد الألعاب متزامنة. هذا يدل على خطأ داخلي غير معروف، لا يمكن أن تستمر "
+"اللعبة."
 
 #: horizons/manager.py:179
 msgid "We are very sorry and hope to have this bug fixed in a future version."
-msgstr ""
+msgstr "نحن نعتذر بشدة ونتمنى حل هذه العلة في الإصدار القادم."
 
 #: horizons/mpsession.py:81 horizons/mpsession.py:86 horizons/mpsession.py:91
 #: horizons/mpsession.py:94
 msgid "Not possible"
-msgstr ""
+msgstr "غير ممكن"
 
 #: horizons/mpsession.py:81 horizons/mpsession.py:86 horizons/mpsession.py:91
 #: horizons/mpsession.py:94
 msgid "Save/load for multiplayer games is not possible yet"
-msgstr ""
+msgstr "حفظ\\تحميل لعبة متعددة الاعبين غير ممكن حتى الآن"
 
 #: horizons/mpsession.py:105
 msgid ""
 "The filename must consist only of letters, numbers, spaces and these "
 "characters: _ . -"
-msgstr ""
+msgstr "يقتصر إسم الملف على الحروف والمسافات والأرقام والرموز :_ . -"
 
 #: horizons/network/connection.py:88 horizons/network/connection.py:94
 msgid "Unable to connect to server."
-msgstr ""
+msgstr "غير قادر على الإتصال بالخادم."
 
 #: horizons/network/connection.py:89
 msgid "Maybe invalid or irresolvable server address."
@@ -3420,7 +3433,7 @@ msgstr ""
 
 #: horizons/network/networkinterface.py:531
 msgid "Not Ready"
-msgstr ""
+msgstr "غير جاهز"
 
 #: horizons/network/server.py:303
 msgid "Old or unsupported multiplayer protocol. Please check your game version"
@@ -3519,65 +3532,65 @@ msgstr ""
 
 #: horizons/scenario/actions.py:91
 msgid "You have won!"
-msgstr ""
+msgstr "ربحتَ!"
 
 #: horizons/scenario/actions.py:92
 msgid "You have completed this scenario."
-msgstr ""
+msgstr "أتممت هذا السيناريو."
 
 #: horizons/scenario/actions.py:93
 msgid "Do you want to continue playing?"
-msgstr ""
+msgstr "هل تريد مواصلة اللعب؟"
 
 #: horizons/scenario/scenarioeventhandler.py:173
 msgid "unknown"
-msgstr ""
+msgstr "مجهول"
 
 #. usually invalid filename
 #: horizons/session.py:400
 msgid "Failed to create savegame file"
-msgstr ""
+msgstr "فشل إنشاء ملف حفظ اللعبة"
 
 #: horizons/session.py:401
 msgid "There has been an error while creating your savegame file."
-msgstr ""
+msgstr "حدث خطأ أثناء إنشاء ملف حفظ اللعبة."
 
 #: horizons/session.py:402
 msgid ""
 "This usually means that the savegame name contains unsupported special "
 "characters."
-msgstr ""
+msgstr "عادة هذا يعني إحتواء إسم الملف على محارف غير مدعومة."
 
 #: horizons/session.py:409
 msgid "Access is denied"
-msgstr ""
+msgstr "الدخول محظور"
 
 #: horizons/session.py:410
 msgid "The savegame file could be read-only or locked by another process."
-msgstr ""
+msgstr "قد يكون ملف حفظ اللعبة قابل للقراءة فقط أو مقفلا من قبل عملية أخرى."
 
 #: horizons/spsession.py:67
 msgid "Your game has not been saved."
-msgstr ""
+msgstr "لم تحفظ اللعبة."
 
 #: horizons/util/checkupdates.py:89
 msgid "New version of Unknown Horizons"
-msgstr ""
+msgstr "إصدار جديد من Unknown Horizons"
 
 #: horizons/util/checkupdates.py:90
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
 "There is a more recent release of Unknown Horizons ({new_version}) than the "
 "one you are currently using ({old_version})."
-msgstr ""
+msgstr "يتوفر إصدار {new_version} أحدث من الذي لديك {old_version}."
 
 #: horizons/util/checkupdates.py:100
 msgid "Click to download"
-msgstr ""
+msgstr "أنقر للتحميل"
 
 #: horizons/util/checkupdates.py:104
 msgid "A page has been opened in your browser."
-msgstr ""
+msgstr "تم فتح صفحة في متصفحك."
 
 #. Ship storage properties
 #: horizons/util/uhdbaccessor.py:283
@@ -3588,94 +3601,94 @@ msgstr ""
 #: horizons/util/uhdbaccessor.py:291
 #, python-brace-format
 msgid "Health: {health}"
-msgstr ""
+msgstr "الصحة: {health}"
 
 #. You usually do not need to change anything here when translating
 #: horizons/world/building/__init__.py:178
 #, python-brace-format
 msgid "{building}: {description}"
-msgstr ""
+msgstr "{building}:{description}"
 
 #: horizons/world/building/buildable.py:42
 msgid "This building must be built on an island."
-msgstr ""
+msgstr "يجب بناء هذا المبنى على جزيرة."
 
 #: horizons/world/building/buildable.py:43
 msgid "This ground is not suitable for this building."
-msgstr ""
+msgstr "لا تلائم هذه الأرض المبنى."
 
 #: horizons/world/building/buildable.py:44
 msgid "This building has to be built within your settlement."
-msgstr ""
+msgstr "يجب بناء هذا المبنى داخل مستعمرتك."
 
 #: horizons/world/building/buildable.py:45
 msgid "This area is already occupied by another player."
-msgstr ""
+msgstr "هذا المنطقة محتلة من طرف لاعب آخر."
 
 #: horizons/world/building/buildable.py:46
 msgid "This area is already occupied by another building."
-msgstr ""
+msgstr "هذه المنطقة مشغولة من طرف مبنا آخر."
 
 #: horizons/world/building/buildable.py:47
 msgid "This area is already occupied by a unit."
-msgstr ""
+msgstr "هذه المنطقة مشغولة من قبل وحدة."
 
 #: horizons/world/building/buildable.py:48
 msgid "This building must be built on the coastline."
-msgstr ""
+msgstr "يجب بناء هذا المبنى على الساحل."
 
 #: horizons/world/building/buildable.py:49
 msgid "This building has to be placed at the ocean."
-msgstr ""
+msgstr "يجب وضع هذا المبنى في المحيط."
 
 #: horizons/world/building/buildable.py:50
 msgid "This spot is too far away from your ship."
-msgstr ""
+msgstr "هذه البقعة بعيدة جدًا عن سفينتك."
 
 #: horizons/world/building/buildable.py:51
 msgid "This building can only be built on a resource source."
-msgstr ""
+msgstr "لا يمكن بناء هذا المبنى إلا على مورد."
 
 #: horizons/world/building/buildable.py:52
 msgid "You have already settled this island."
-msgstr ""
+msgstr "إسعمرت هذه الجزيرة بالفعل."
 
 #: horizons/world/building/buildable.py:53
 msgid "This building must be partly on flat land."
-msgstr ""
+msgstr "يجب أن يكون جزء من هذا المبنى فوق أرض مستوية."
 
 #: horizons/world/status.py:73
 msgid "The inhabitants are infected by the Black Death!"
-msgstr ""
+msgstr "السكان مصابون بالطاعون!"
 
 #: horizons/world/status.py:79
 msgid "This building is on fire!"
-msgstr ""
+msgstr "المبنى يحترق!"
 
 #: horizons/world/status.py:86
 msgid "These residents are unhappy."
-msgstr ""
+msgstr "السكان غير راضون."
 
 #: horizons/world/status.py:92
 msgid "These residents don't have access to a main square."
-msgstr ""
+msgstr "لا يتمكن هؤلاء السكان من الوصول الى الساحة الرئيسية."
 
 #: horizons/world/status.py:98
 msgid "The inventory of this building is full."
-msgstr ""
+msgstr "مخزون هذا المبنى ممتلئ."
 
 #: horizons/world/status.py:113
 msgid "This building has a very low productivity."
-msgstr ""
+msgstr "إنتاجية هذا المبنى منخفضة."
 
 #: horizons/world/status.py:119
 msgid "This building is decommissioned."
-msgstr ""
+msgstr "هذا المبنى متوقف عن العمل."
 
 #: horizons/world/traderoute.py:336
 #, python-brace-format
 msgid "Trade route: going to {location}"
-msgstr ""
+msgstr "الطريق التجاري: متوجهةالى {location}"
 
 #: horizons/world/traderoute.py:340
 #, python-brace-format
@@ -3685,12 +3698,12 @@ msgstr ""
 #: horizons/world/units/ship.py:214
 #, python-brace-format
 msgid "Going to {location}"
-msgstr ""
+msgstr "متوجه الى {location}"
 
 #: horizons/world/units/ship.py:215
 #, python-brace-format
 msgid "Going to {x}, {y}"
-msgstr ""
+msgstr "متوجه الى {x}،{y}"
 
 #: horizons/world/units/ship.py:219
 #, python-brace-format
@@ -3704,47 +3717,47 @@ msgstr ""
 
 #: horizons/world/units/ship.py:231
 msgid "Trader"
-msgstr ""
+msgstr "تاجر"
 
 #: horizons/world/units/weaponholder.py:436
 #, python-brace-format
 msgid "Attacking {target} '{name}' ({owner})"
-msgstr ""
+msgstr "مهاجمة {target}' {name}'({owner})"
 
 #: horizons/world/units/weaponholder.py:440
 #, python-brace-format
 msgid "Attacking {owner}"
-msgstr ""
+msgstr "مهاجمة {owner}"
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your game has been autosaved."
-msgstr ""
+msgstr "تم الحفظ التلقائي للعبتك."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your building has caught fire!"
-msgstr ""
+msgstr "مبناك يهاجَم!"
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "{player}: {message}"
-msgstr ""
+msgstr "{player}:{message}"
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid ""
 "{player1} and {player2} have ended their alliance and are now in a state of "
 "war."
-msgstr ""
+msgstr "انتهى تحالف {player1} و {player2} وهما الآن في حالة حرب."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "{player1} and {player2} have terminated their alliance."
-msgstr ""
+msgstr "أنهى {player1} و {player2} تحالفهما."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "{player1} and {player2} have ended the war and are now allied."
-msgstr ""
+msgstr "أنهى {player1} و{player2} الحرب وهما الآن في تحالف."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
@@ -3754,24 +3767,24 @@ msgstr ""
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "{player1} and {player2} have allied their forces."
-msgstr ""
+msgstr "وحد {player1} و{player2} قواهما."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "{player1} and {player2} will fight each other to the death."
-msgstr ""
+msgstr "سيتقاتل {player1} و {player2} حتى الموت."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "You can also drag roads."
-msgstr ""
+msgstr "يمكنك سحب الطرق."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "One of your fields requires a farm to harvest its crops."
-msgstr ""
+msgstr "إحدى حقولك تحتاج الى مزرعة لحصد المحاصيل."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your mine has run out of resources."
-msgstr ""
+msgstr "نفذت موارد المنجم."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid ""
@@ -3781,31 +3794,31 @@ msgstr ""
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Cannot go here."
-msgstr ""
+msgstr "لا يمكن الذهاب الى هناك."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your crew refuses to leave this map."
-msgstr ""
+msgstr "رفض طاقمك ترك هذه الخريطة."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "You need more {resource} to build this building."
-msgstr ""
+msgstr "تحتاج الى المزيد من {resource} لبناء هذا المبنى."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "A new settlement was founded by {player}."
-msgstr ""
+msgstr "تم تأسيس مستعمرة جديدة من قبل {player}."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "A new ship by the name of {name} has been created."
-msgstr ""
+msgstr "أنشئت سفينة جديدة باسم {name}."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "The Soldier by the name of {name} is ready to battle."
-msgstr ""
+msgstr "جندي باسم {name} جاهز للقتال."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
@@ -3814,39 +3827,40 @@ msgstr ""
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "A new world has been created."
-msgstr ""
+msgstr "تم إنشاء عالم جديد."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Some of your inhabitants have no access to a main square."
-msgstr ""
+msgstr "لا يتمكن بعض من سكانك من الوصول الى الساحة الرئيسية."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your game has been quicksaved."
-msgstr ""
+msgstr "تم الحفظ السريع للعبة."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid ""
 "The route is now configured. Start it via the \"start route\" button in the "
 "\"configure route\" menu."
 msgstr ""
+"الطريق مُعدة. اِبدأها باستخدام زر \"إبدأ الطريق\" من قائمة \"إعداد الطريق\"."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Your game has been saved."
-msgstr ""
+msgstr "تم حفظ اللعبة."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "Screenshot has been saved to {file}."
-msgstr ""
+msgstr "تم حفظ لقطة الشاشة الى {file}."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 #, python-brace-format
 msgid "Your inhabitants reached level {level}."
-msgstr ""
+msgstr "وصل سكانك الى المستوى {level}."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "Some of your inhabitants just moved out."
-msgstr ""
+msgstr "إنتقل بعض من سكانك."
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "You cannot tear the warehouse, your settlements needs it."
@@ -3854,7 +3868,7 @@ msgstr ""
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "You won!"
-msgstr ""
+msgstr "ربحتَ!"
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "You failed the scenario."
@@ -3862,51 +3876,51 @@ msgstr ""
 
 #. This is a database entry: a messagewidget message (left part of the screen)
 msgid "The inhabitants of this building are infected by the Black Death!"
-msgstr ""
+msgstr "أصيب سكان هذا المبتى بالطاعون!"
 
 #. This is a database entry: the name of a resource
 msgid "coins"
-msgstr ""
+msgstr "قطع نقدية"
 
 #. This is a database entry: the name of a resource
 msgid "lamb wool"
-msgstr ""
+msgstr "صوف"
 
 #. This is a database entry: the name of a resource
 msgid "textile"
-msgstr ""
+msgstr "منسوجات"
 
 #. This is a database entry: the name of a resource
 msgid "boards"
-msgstr ""
+msgstr "ألواح"
 
 #. This is a database entry: the name of a resource
 msgid "food"
-msgstr ""
+msgstr "غذاء"
 
 #. This is a database entry: the name of a resource
 msgid "tools"
-msgstr ""
+msgstr "أدوات"
 
 #. This is a database entry: the name of a resource
 msgid "bricks"
-msgstr ""
+msgstr "طوب"
 
 #. This is a database entry: the name of a resource
 msgid "trees"
-msgstr ""
+msgstr "أشجار"
 
 #. This is a database entry: the name of a resource
 msgid "grass"
-msgstr ""
+msgstr "عشب"
 
 #. This is a database entry: the name of a resource
 msgid "wool"
-msgstr ""
+msgstr "صوف"
 
 #. This is a database entry: the name of a resource
 msgid "faith"
-msgstr ""
+msgstr "إيمان"
 
 #. This is a database entry: the name of a resource
 msgid "deer food A"
@@ -3914,119 +3928,119 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "deer meat"
-msgstr ""
+msgstr "لحم الغزال"
 
 #. This is a database entry: the name of a resource
 msgid "happiness"
-msgstr ""
+msgstr "سعادة"
 
 #. This is a database entry: the name of a resource
 msgid "potatoes"
-msgstr ""
+msgstr "بطاطا"
 
 #. This is a database entry: the name of a resource
 msgid "education"
-msgstr ""
+msgstr "تعليم"
 
 #. This is a database entry: the name of a resource
 msgid "sugar cane"
-msgstr ""
+msgstr "قصب السكر"
 
 #. This is a database entry: the name of a resource
 msgid "sugar"
-msgstr ""
+msgstr "سكر"
 
 #. This is a database entry: the name of a resource
 msgid "community"
-msgstr ""
+msgstr "مجتمع"
 
 #. This is a database entry: the name of a resource
 msgid "clay deposit"
-msgstr ""
+msgstr "رواسب طين"
 
 #. This is a database entry: the name of a resource
 msgid "clay"
-msgstr ""
+msgstr "طين"
 
 #. This is a database entry: the name of a resource
 msgid "liquor"
-msgstr ""
+msgstr "شراب"
 
 #. This is a database entry: the name of a resource
 msgid "charcoal"
-msgstr ""
+msgstr "فحم"
 
 #. This is a database entry: the name of a resource
 msgid "iron deposit"
-msgstr ""
+msgstr "رواسب الحديد"
 
 #. This is a database entry: the name of a resource
 msgid "iron ore"
-msgstr ""
+msgstr "خام الحديد"
 
 #. This is a database entry: the name of a resource
 msgid "iron ingots"
-msgstr ""
+msgstr "سبائك الحديد"
 
 #. This is a database entry: the name of a resource
 msgid "get-together"
-msgstr ""
+msgstr "مجالس"
 
 #. This is a database entry: the name of a resource
 msgid "fish"
-msgstr ""
+msgstr "سمك"
 
 #. This is a database entry: the name of a resource
 msgid "salt"
-msgstr ""
+msgstr "ملح"
 
 #. This is a database entry: the name of a resource
 msgid "tobacco plants"
-msgstr ""
+msgstr "نبات التبغ"
 
 #. This is a database entry: the name of a resource
 msgid "tobacco leaves"
-msgstr ""
+msgstr "أوراق التبغ"
 
 #. This is a database entry: the name of a resource
 msgid "tobaccos"
-msgstr ""
+msgstr "تبغ"
 
 #. This is a database entry: the name of a resource
 msgid "cattle"
-msgstr ""
+msgstr "ماشية"
 
 #. This is a database entry: the name of a resource
 msgid "pigs"
-msgstr ""
+msgstr "حيوانات"
 
 #. This is a database entry: the name of a resource
 msgid "cattle for slaughter"
-msgstr ""
+msgstr "ماشية للذبح"
 
 #. This is a database entry: the name of a resource
 msgid "pigs for slaughter"
-msgstr ""
+msgstr "حيوانات للذبح"
 
 #. This is a database entry: the name of a resource
 msgid "herbs"
-msgstr ""
+msgstr "أعشاب"
 
 #. This is a database entry: the name of a resource
 msgid "medical herbs"
-msgstr ""
+msgstr "أعشاب طبية"
 
 #. This is a database entry: the name of a resource
 msgid "acorns"
-msgstr ""
+msgstr "بلوط"
 
 #. This is a database entry: the name of a resource
 msgid "cannon"
-msgstr ""
+msgstr "مدفع"
 
 #. This is a database entry: the name of a resource
 msgid "sword"
-msgstr ""
+msgstr "سيف"
 
 #. This is a database entry: the name of a resource
 msgid "grain"
@@ -4034,11 +4048,11 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "corn"
-msgstr ""
+msgstr "ذرة"
 
 #. This is a database entry: the name of a resource
 msgid "flour"
-msgstr ""
+msgstr "طحين"
 
 #. This is a database entry: the name of a resource
 msgid "spice plants"
@@ -4054,7 +4068,7 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "marble deposit"
-msgstr ""
+msgstr "رواسب الرخام"
 
 #. This is a database entry: the name of a resource
 msgid "marble tops"
@@ -4062,11 +4076,11 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "coal deposit"
-msgstr ""
+msgstr "رواسب الفحم"
 
 #. This is a database entry: the name of a resource
 msgid "stone deposit"
-msgstr ""
+msgstr "رواسب الحجارة"
 
 #. This is a database entry: the name of a resource
 msgid "stone tops"
@@ -4074,83 +4088,83 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "cocoa beans"
-msgstr ""
+msgstr "حبوب الكاكاو"
 
 #. This is a database entry: the name of a resource
 msgid "cocoa"
-msgstr ""
+msgstr "كاكاو"
 
 #. This is a database entry: the name of a resource
 msgid "confectionery"
-msgstr ""
+msgstr "حلويات"
 
 #. This is a database entry: the name of a resource
 msgid "candles"
-msgstr ""
+msgstr "شموع"
 
 #. This is a database entry: the name of a resource
 msgid "vines"
-msgstr ""
+msgstr "كروم"
 
 #. This is a database entry: the name of a resource
 msgid "grapes"
-msgstr ""
+msgstr "عنب"
 
 #. This is a database entry: the name of a resource
 msgid "alvearies"
-msgstr ""
+msgstr "خلايا نحل"
 
 #. This is a database entry: the name of a resource
 msgid "honeycombs"
-msgstr ""
+msgstr "أقراص العسل"
 
 #. This is a database entry: the name of a resource
 msgid "gold deposit"
-msgstr ""
+msgstr "رواسب الذهب"
 
 #. This is a database entry: the name of a resource
 msgid "gold ore"
-msgstr ""
+msgstr "خام الحديد"
 
 #. This is a database entry: the name of a resource
 msgid "gold ingots"
-msgstr ""
+msgstr "سبائك الذهب"
 
 #. This is a database entry: the name of a resource
 msgid "gem deposit"
-msgstr ""
+msgstr "رواسب الجواهر"
 
 #. This is a database entry: the name of a resource
 msgid "rough gems"
-msgstr ""
+msgstr "خام الجواهر"
 
 #. This is a database entry: the name of a resource
 msgid "gems"
-msgstr ""
+msgstr "جواهر"
 
 #. This is a database entry: the name of a resource
 msgid "coffee plants"
-msgstr ""
+msgstr "نبات القهوة"
 
 #. This is a database entry: the name of a resource
 msgid "coffee beans"
-msgstr ""
+msgstr "حبوب القهوة"
 
 #. This is a database entry: the name of a resource
 msgid "coffee"
-msgstr ""
+msgstr "قهوة"
 
 #. This is a database entry: the name of a resource
 msgid "tea plants"
-msgstr ""
+msgstr "نبات الشاي"
 
 #. This is a database entry: the name of a resource
 msgid "tea leaves"
-msgstr ""
+msgstr "أوراق الشاي"
 
 #. This is a database entry: the name of a resource
 msgid "tea"
-msgstr ""
+msgstr "شاي"
 
 #. This is a database entry: the name of a resource
 msgid "flower meadows"
@@ -4170,76 +4184,76 @@ msgstr ""
 
 #. This is a database entry: the name of a resource
 msgid "whales"
-msgstr ""
+msgstr "حيتان"
 
 #. This is a database entry: the name of a resource
 msgid "ambergris"
-msgstr ""
+msgstr "عنبر"
 
 #. This is a database entry: the name of a resource
 msgid "lamp oil"
-msgstr ""
+msgstr "زيت مصباح"
 
 #. This is a database entry: the name of a resource
 msgid "cotton plants"
-msgstr ""
+msgstr "نبات القطن"
 
 #. This is a database entry: the name of a resource
 msgid "cotton"
-msgstr ""
+msgstr "قطن"
 
 #. This is a database entry: the name of a resource
 msgid "indigo plants"
-msgstr ""
+msgstr "نبات النيلة"
 
 #. This is a database entry: the name of a resource
 msgid "indigo"
-msgstr ""
+msgstr "نيلة"
 
 #. This is a database entry: the name of a resource
 msgid "garments"
-msgstr ""
+msgstr "ملابس"
 
 #. This is a database entry: the name of a resource
 msgid "perfume"
-msgstr ""
+msgstr "عطر"
 
 #. This is a database entry: the name of a resource
 msgid "hop plants"
-msgstr ""
+msgstr "نبات الجلجل"
 
 #. This is a database entry: the name of a resource
 msgid "hops"
-msgstr ""
+msgstr "جلجل"
 
 #. This is a database entry: the name of a resource
 msgid "beer"
-msgstr ""
+msgstr "جعة"
 
 #. This is a database entry: the name of a resource
 msgid "hygiene"
-msgstr ""
+msgstr "نظافة"
 
 #. This is a database entry: the name of a resource
 msgid "recreation"
-msgstr ""
+msgstr "ترفيه"
 
 #. This is a database entry: the name of a resource
 msgid "blackdeath"
-msgstr ""
+msgstr "طاعون"
 
 #. This is a database entry: the name of a resource
 msgid "fire"
-msgstr ""
+msgstr "نار"
 
 #. This is a database entry: the name of an inhabitant tier (level)
 msgid "Sailors"
-msgstr ""
+msgstr "بحارة"
 
 #. This is a database entry: the name of an inhabitant tier (level)
 msgid "Merchants"
-msgstr ""
+msgstr "تجار"
 
 #. This is a database entry: the name of an inhabitant tier (level)
 msgid "Aristocrats"
-msgstr ""
+msgstr "أرستقراطيون"
