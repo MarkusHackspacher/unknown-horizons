@@ -8,193 +8,199 @@ msgstr ""
 "Project-Id-Version: Unknown Horizons e124229\n"
 "Report-Msgid-Bugs-To: team@unknown-horizons.org\n"
 "POT-Creation-Date: 2017-06-09 23:33+0200\n"
-"PO-Revision-Date: 2015-12-02 23:34+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-31 18:02+0000\n"
+"Last-Translator: Dominik Jastrzębski <domjotebit@gmail.com>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/uh/uh/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: run_uh.py:132
 msgid "Thank you for using Unknown Horizons!"
-msgstr ""
+msgstr "Vă mulțumim pentru că folosiți Unknown Horizons!"
 
 #: run_uh.py:188
 msgid "Unknown Horizons has crashed."
-msgstr ""
+msgstr "Unknown Horizons s-a prăbușit."
 
 #: run_uh.py:189
 msgid "We are very sorry for this and want to fix the underlying error."
 msgstr ""
+"Ne pare foarte rău pentru acest lucru și dorim să corectăm eroarea de bază."
 
 #: run_uh.py:190
 msgid "In order to do this, we need the information from the logfile:"
 msgstr ""
+"Pentru a face acest lucru, avem nevoie de informațiile din fișierul jurnal:"
 
 #: run_uh.py:192
 msgid ""
 "Please give it to us via IRC or our forum, for both see http://unknown-"
 "horizons.org ."
 msgstr ""
+"Vă rugăm să ne-o dați prin IRC sau pe forumul nostru, pentru ambele vedeți "
+"http://unknown-horizons.org ."
 
 #: content/gui/xml/editor/editor_pause_menu.xml:14
 msgid "Return to editor"
-msgstr ""
+msgstr "Înapoi la editor"
 
 #: content/gui/xml/editor/editor_pause_menu.xml:15
 #: horizons/gui/modules/select_savegame.py:55
 msgid "Save map"
-msgstr ""
+msgstr "Salvați harta"
 
 #: content/gui/xml/editor/editor_pause_menu.xml:16
 msgid "Load map"
-msgstr ""
+msgstr "Încărcați harta"
 
 #. Main / in-game menu entry
 #: content/gui/xml/editor/editor_pause_menu.xml:17
 #: content/gui/xml/mainmenu/ingamemenu.xml:17
 #: content/gui/xml/mainmenu/mainmenu.xml:20
 msgid "Settings"
-msgstr ""
+msgstr "Setări"
 
 #. Main / in-game menu entry
 #: content/gui/xml/editor/editor_pause_menu.xml:18
 #: content/gui/xml/mainmenu/ingamemenu.xml:18
 #: content/gui/xml/mainmenu/mainmenu.xml:24
 msgid "Help"
-msgstr ""
+msgstr "Ajutor"
 
 #: content/gui/xml/editor/editor_pause_menu.xml:19
 msgid "Exit editor"
-msgstr ""
+msgstr "Ieșire din editor"
 
 #: content/gui/xml/editor/editor_settings.xml:6
 msgid "Select brush size:"
-msgstr ""
+msgstr "Selectați dimensiunea pensulei:"
 
 #: content/gui/xml/editor/editor_settings.xml:20
 msgid "Select terrain:"
-msgstr ""
+msgstr "Selectați terenul:"
 
 #: content/gui/xml/editor/editor_settings.xml:27
 msgid "(right click to stop)"
-msgstr ""
+msgstr "(faceți clic pe butonul din dreapta pentru a opri)"
 
 #: content/gui/xml/ingame/buildmenu/buildtab_no_settlement.xml:8
 msgid "Game start"
-msgstr ""
+msgstr "Începutul jocului"
 
 #: content/gui/xml/ingame/buildmenu/buildtab_no_settlement.xml:15
 msgid "You need to found a settlement before you can construct buildings!"
-msgstr ""
+msgstr "Trebuie să întemeiezi o așezare înainte de a putea construi clădiri!"
 
 #: content/gui/xml/ingame/buildmenu/buildtab_no_settlement.xml:18
 msgid "Select your ship and approach the coast via right-click."
-msgstr ""
+msgstr "Selectează-ți nava și apropie-te de coastă prin clic dreapta."
 
 #: content/gui/xml/ingame/buildmenu/buildtab_no_settlement.xml:21
 msgid "Afterwards, press the large button in the ship overview tab."
 msgstr ""
+"După aceea, apăsați butonul mare din fila de prezentare generală a navei."
 
 #: content/gui/xml/ingame/buildmenu/place_building.xml:7
 msgid "Build"
-msgstr ""
+msgstr "Construiți"
 
 #: content/gui/xml/ingame/buildmenu/place_building.xml:17
 msgid "Running costs:"
-msgstr ""
+msgstr "Costuri de funcționare:"
 
 #: content/gui/xml/ingame/buildmenu/related_buildings.xml:9
 msgid "Related buildings"
-msgstr ""
+msgstr "Clădiri conexe"
 
 #: content/gui/xml/ingame/hud/city_info.xml:9
 #: content/gui/xml/ingame/widgets/players_settlements.xml:12
 msgid "Inhabitants"
-msgstr ""
+msgstr "Locuitori"
 
 #: content/gui/xml/ingame/hud/minimap.xml:14
 #, python-brace-format
 msgid "Increase game speed ({key})"
-msgstr ""
+msgstr "Creșteți viteza jocului ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:16
 #, python-brace-format
 msgid "Decrease game speed ({key})"
-msgstr ""
+msgstr "Reducerea vitezei de joc ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:19
 #, python-brace-format
 msgid "Rotate map counterclockwise ({key})"
-msgstr ""
+msgstr "Rotiți harta în sens invers acelor de ceasornic ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:21
 #, python-brace-format
 msgid "Rotate map clockwise ({key})"
-msgstr ""
+msgstr "Rotiți harta în sensul acelor de ceasornic ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:24
 #: content/gui/xml/mainmenu/hotkeys.xml:19
 msgid "Zoom in"
-msgstr ""
+msgstr "Măriți imaginea"
 
 #: content/gui/xml/ingame/hud/minimap.xml:26
 #: content/gui/xml/mainmenu/hotkeys.xml:20
 msgid "Zoom out"
-msgstr ""
+msgstr "Micșorați imaginea"
 
 #: content/gui/xml/ingame/hud/minimap.xml:39
 #, python-brace-format
 msgid "Destroy ({key})"
-msgstr ""
+msgstr "Distrugeți ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:41
 #, python-brace-format
 msgid "Captain's log ({key})"
-msgstr ""
+msgstr "Jurnalul căpitanului ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:43
 #, python-brace-format
 msgid "Build menu ({key})"
-msgstr ""
+msgstr "Meniu de construcție ({key})"
 
 #: content/gui/xml/ingame/hud/minimap.xml:45
 msgid "Diplomacy"
-msgstr ""
+msgstr "Diplomație"
 
 #: content/gui/xml/ingame/hud/minimap.xml:47
 #, python-brace-format
 msgid "Game menu ({key})"
-msgstr ""
+msgstr "Meniu de joc ({key})"
 
 #: content/gui/xml/ingame/popups/change_name.xml:6
 msgid "Change name"
-msgstr ""
+msgstr "Schimbați numele"
 
 #: content/gui/xml/ingame/popups/change_name.xml:9
 msgid "Old name:"
-msgstr ""
+msgstr "Numele vechi:"
 
 #: content/gui/xml/ingame/popups/change_name.xml:13
 msgid "Enter new name:"
-msgstr ""
+msgstr "Introduceți un nou nume:"
 
 #: content/gui/xml/ingame/popups/change_name.xml:18
 msgid "Apply the new name"
-msgstr ""
+msgstr "Aplicați noul nume"
 
 #: content/gui/xml/ingame/popups/chat.xml:6
 #: content/gui/xml/ingame/widgets/captains_log.xml:67
 #: content/gui/xml/mainmenu/hotkeys.xml:29 horizons/gui/widgets/logbook.py:54
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: content/gui/xml/ingame/popups/chat.xml:8
 msgid "Enter your message:"
-msgstr ""
+msgstr "Introduceți mesajul:"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:14
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:14
@@ -210,13 +216,15 @@ msgstr ""
 #: content/gui/xml/ingame/widgets/players_settlements.xml:14
 #: horizons/gui/widgets/resourceoverviewbar.py:614
 msgid "Running costs"
-msgstr ""
+msgstr "Costuri de funcționare"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:21
 msgid ""
 "To build a groundunit, click on one of the class tabs, select the desired "
 "groundunit and confirm the order."
 msgstr ""
+"Pentru a construi o unitate terestră, faceți clic pe una dintre filele de "
+"clasă, selectați unitatea terestră dorită și confirmați comanda."
 
 #. Information about the ship currently under construction at the boat
 #. builder
@@ -225,21 +233,21 @@ msgstr ""
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:29
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:29
 msgid "Currently building:"
-msgstr ""
+msgstr "În prezent se construiește:"
 
 #. Pauses the current ship production, can be resumed later
 #. Pauses the current groundunit production, can be resumed later
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:40
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:40
 msgid "Pause"
-msgstr ""
+msgstr "Pauză"
 
 #. Resumes the currently paused ship production
 #. Resumes the currently paused groundunit production
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:43
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:43
 msgid "Resume"
-msgstr ""
+msgstr "Reluare"
 
 #. Refers to the resources still missing to complete the current boat
 #. builder task
@@ -248,45 +256,45 @@ msgstr ""
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:51
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:51
 msgid "Construction progress:"
-msgstr ""
+msgstr "Progresul construcției:"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:55
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:55
 msgid "Resources still needed:"
-msgstr ""
+msgstr "Resursele încă necesare:"
 
 #. abort construction of a ship, lose invested resources
 #. abort construction of a groundunit, lose invested resources
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:65
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:65
 msgid "Cancel building:"
-msgstr ""
+msgstr "Anulați clădirea:"
 
 #. abort construction of a ship, lose invested resources
 #. abort construction of a groundunit, lose invested resources
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:67
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:67
 msgid "(lose all resources)"
-msgstr ""
+msgstr "(pierderea tuturor resurselor)"
 
 #. abort construction of a ship, lose invested resources
 #. abort construction of a groundunit, lose invested resources
 #: content/gui/xml/ingame/tabwidget/barracks/barracks.xml:70
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:70
 msgid "Cancel all building progress"
-msgstr ""
+msgstr "Anularea tuturor progreselor de construcție"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:8
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:8
 #: horizons/gui/tabs/barrackstabs.py:130
 #: horizons/gui/tabs/boatbuildertabs.py:342
 msgid "Confirm order"
-msgstr ""
+msgstr "Confirmați comanda"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:14
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:14
 msgid "(like in the selection tabs)"
-msgstr ""
+msgstr "(ca în filele de selecție)"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:19
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:21
@@ -298,116 +306,121 @@ msgstr ""
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:23
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:25
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:27
+#, fuzzy
 msgid "$res"
-msgstr ""
+msgstr "$res"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:20
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:20
 msgid "24t"
-msgstr ""
+msgstr "24t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:22
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:22
 msgid "14t"
-msgstr ""
+msgstr "14t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:24
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:26
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:24
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:26
 msgid "06t"
-msgstr ""
+msgstr "06t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:28
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:28
 msgid "2500"
-msgstr ""
+msgstr "2500"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:34
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:34
 msgid "Sloop-o'-war"
-msgstr ""
+msgstr "Navă de război"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:35
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:35
 msgid "Three-masted most common classified war ship with one gun deck."
 msgstr ""
+"Cea mai comună navă de război clasificată cu trei catarge, cu o punte de "
+"tunuri."
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:36
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:36
 msgid "Buy Upgrades"
-msgstr ""
+msgstr "Cumpărați îmbunătățiri"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:43
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:43
 msgid "Cannons"
-msgstr ""
+msgstr "Tunuri"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:45
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:45
 msgid "Hull"
-msgstr ""
+msgstr "Cocă"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:50
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:50
 msgid "+ 24t"
-msgstr ""
+msgstr "+ 24t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:51
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:51
 msgid "+ 14t"
-msgstr ""
+msgstr "+ 14t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:52
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:53
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:52
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:53
 msgid "+ 06t"
-msgstr ""
+msgstr "+ 06t"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:54
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:54
 msgid "+ 1457"
-msgstr ""
+msgstr "+ 1457"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:60
 msgid "Build groundunit:"
-msgstr ""
+msgstr "Construiți o unitate de bază:"
 
 #: content/gui/xml/ingame/tabwidget/barracks/barracks_confirm.xml:61
 #: horizons/gui/tabs/barrackstabs.py:81
 msgid "Build this groundunit!"
-msgstr ""
+msgstr "Construiți această unitate de bază!"
 
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder.xml:21
 msgid ""
 "To build a boat, click on one of the class tabs, select the desired ship and "
 "confirm the order."
 msgstr ""
+"Pentru a construi o barcă, faceți clic pe una dintre filele de clasă, "
+"selectați nava dorită și confirmați comanda."
 
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:60
 msgid "Build ship:"
-msgstr ""
+msgstr "Construiți o navă:"
 
 #: content/gui/xml/ingame/tabwidget/boatbuilder/boatbuilder_confirm.xml:61
 #: horizons/gui/tabs/boatbuildertabs.py:252
 msgid "Build this ship!"
-msgstr ""
+msgstr "Construiți această navă!"
 
 #. Diplomacy state of player
 #: content/gui/xml/ingame/tabwidget/diplomacy/diplomacy.xml:14
 msgid "ally"
-msgstr ""
+msgstr "aliat"
 
 #. Diplomacy state of player
 #: content/gui/xml/ingame/tabwidget/diplomacy/diplomacy.xml:16
 msgid "neutral"
-msgstr ""
+msgstr "neutru"
 
 #. Diplomacy state of player
 #: content/gui/xml/ingame/tabwidget/diplomacy/diplomacy.xml:18
 msgid "enemy"
-msgstr ""
+msgstr "inamic"
 
 #: content/gui/xml/ingame/tabwidget/farm/overview_farm.xml:12
 #: content/gui/xml/ingame/tabwidget/overview/overview_generic.xml:10
@@ -3388,94 +3401,103 @@ msgstr ""
 #: horizons/network/server.py:303
 msgid "Old or unsupported multiplayer protocol. Please check your game version"
 msgstr ""
+"Protocol multiplayer vechi sau fără suport. Te rugăm să verifici versiunea "
+"jocului tău"
 
 #: horizons/network/server.py:339
 msgid "You've exceeded the global packet size."
-msgstr ""
+msgstr "Ai depășit mărimea pachetului global."
 
 #: horizons/network/server.py:340 horizons/network/server.py:359
 msgid "This should never happen. Please contact us or file a bug report."
 msgstr ""
+"Acest lucru nu ar trebui să se întâmple. Te rugăm să ne contactezi sau să ne "
+"trimiți un bug report."
 
 #: horizons/network/server.py:358
 msgid "You've exceeded the per packet size."
-msgstr ""
+msgstr "Ai depășit mărimea per pachet."
 
 #: horizons/network/server.py:366
 msgid "Unknown or malformed packet. Please check your game version"
 msgstr ""
+"Pachet necunoscut sau malformat. Te rugăm să verifici versiunea jocului tău"
 
 #: horizons/network/server.py:374
 msgid "Invalid/Unknown session"
-msgstr ""
+msgstr "Sesiune invalidă/necunoscută"
 
 #: horizons/network/server.py:455
 msgid "You can't join a game while in another game"
-msgstr ""
+msgstr "Nu poți intra intr-un joc în timp ce ești în alt joc"
 
 #: horizons/network/server.py:460
 msgid "Unknown game or game is running a different version"
-msgstr ""
+msgstr "Joc necunoscut sau jocul rulează altă versiune de joc"
 
 #: horizons/network/server.py:463
 msgid "Game has already started. No more joining"
-msgstr ""
+msgstr "Jocul deja a inceput. Nu mai poți intra"
 
 #: horizons/network/server.py:466
 msgid "Game is full"
-msgstr ""
+msgstr "Jocul este plin"
 
 #: horizons/network/server.py:469
 msgid "Wrong password"
-msgstr ""
+msgstr "Parolă greșită"
 
 #: horizons/network/server.py:475 horizons/network/server.py:540
 msgid "There's already a player with your name inside this game."
-msgstr ""
+msgstr "Există deja un jucător cu numele tău în acest joc."
 
 #: horizons/network/server.py:476
 msgid "Please change your name."
-msgstr ""
+msgstr "Te rugăm să îți schimbi numele."
 
 #: horizons/network/server.py:479 horizons/network/server.py:572
 msgid "There's already a player with your color inside this game."
-msgstr ""
+msgstr "Există deja un jucător cu aceași culoare ca și tine in acest joc."
 
 #: horizons/network/server.py:480
 msgid "Please change your color."
-msgstr ""
+msgstr "Te rugăm să îți schimbi culoarea."
 
 #: horizons/network/server.py:483
 msgid ""
 "There's already a player with your unique player ID inside this game. This "
 "should never occur."
 msgstr ""
+"Există deja un jucător cu ID-ul tău unic în acest joc. Acest lucru nu ar "
+"trebui să se întample."
 
 #: horizons/network/server.py:496
 msgid "You are not inside a game"
-msgstr ""
+msgstr "Nu ești într-un joc"
 
 #: horizons/network/server.py:541
 msgid "Unable to change your name."
-msgstr ""
+msgstr "Nu îți poți schimba numele."
 
 #: horizons/network/server.py:573
 msgid "Unable to change your color."
-msgstr ""
+msgstr "Nu îți poți schimba culoarea."
 
 #: horizons/network/server.py:649
 msgid "You can't fetch a game while in another game"
-msgstr ""
+msgstr "Nu poți intra în joc în timpul altui joc."
 
 #: horizons/network/server.py:716
 msgid "The game has been terminated. The creator has left the game."
-msgstr ""
+msgstr "Jocul a fost terminat. Creatorul jocului a ieșit din joc."
 
 #: horizons/network/server.py:721
 msgid ""
 "One player has terminated their game. For technical reasons, this currently "
 "means the game cannot continue. We are very sorry about that."
 msgstr ""
+"Unul din jucători și-a închis jocul. Din motive tehnice, asta înseamnă că "
+"jocul nu poate continua. Ne pare rău pentru asta."
 
 #: horizons/scenario/actions.py:91
 msgid "You have won!"
